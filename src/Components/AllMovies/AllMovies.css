@@ -1,0 +1,12 @@
+.movies{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+@media  screen and (max-width: 688px) {
+    .movies{
+        display: flex;
+        flex-direction: column;
+    }
+}
